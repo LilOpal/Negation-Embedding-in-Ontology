@@ -1,0 +1,112 @@
+# ===== Environment variables / secrets =====
+.env
+.env.*
+!.env.example
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Packaging / distribution
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Type checkers / linters
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+.dmypy.json
+
+# Testing / coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+hypothesis/
+.hypothesis/
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nb.py
+
+# ===== PyTorch / ML artifacts =====
+# Model checkpoints and weights
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+checkpoints/
+saved_models/
+models/
+weights/
+
+# Training logs / experiment tracking
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+mlartifacts/
+*.tfevents.*
+
+# Data (uncomment/adjust to your needs — often data lives outside git)
+data/
+datasets/
+*.h5
+*.hdf5
+*.parquet
+
+# Hugging Face / cached artifacts
+.cache/
+huggingface/
+
+# ===== IDEs / editors =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Misc =====
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+AGENTS.md
